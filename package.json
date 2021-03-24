@@ -1,10 +1,10 @@
 {
   "name": "express-deux",
   "description": "A generator for building better Express apps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Max Diamond @dmdboi",
   "bin": {
-    "duex": "./bin/run"
+    "deux": "./bin/run"
   },
   "bugs": "https://github.com/dmdboi/deux/issues",
   "dependencies": {
@@ -33,7 +33,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/dmdboi/duex",
+  "homepage": "https://github.com/dmdboi/deux",
   "keywords": [
     "oclif"
   ],
@@ -41,12 +41,12 @@
   "main": "src/index.js",
   "oclif": {
     "commands": "./src/commands",
-    "bin": "duex",
+    "bin": "deux",
     "plugins": [
       "@oclif/plugin-help"
     ]
   },
-  "repository": "dmdboi/duex",
+  "repository": "dmdboi/deux",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "prepack": "oclif-dev manifest && oclif-dev readme",

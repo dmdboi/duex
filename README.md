@@ -16,28 +16,28 @@ A generator for building better Express apps
 <!-- usage -->
 ```sh-session
 $ npm install -g express-deux
-$ duex COMMAND
+$ deux COMMAND
 running command...
-$ duex (-v|--version|version)
+$ deux (-v|--version|version)
 express-deux/1.0.0 win32-x64 node-v14.16.0
-$ duex --help [COMMAND]
+$ deux --help [COMMAND]
 USAGE
-  $ duex COMMAND
+  $ deux COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`duex help [COMMAND]`](#duex-help-command)
-* [`duex template NAME DIR`](#duex-template-name-dir)
+* [`deux help [COMMAND]`](#deux-help-command)
+* [`deux template NAME DIR`](#deux-template-name-dir)
 
-## `duex help [COMMAND]`
+## `deux help [COMMAND]`
 
-display help for duex
+display help for deux
 
 ```
 USAGE
-  $ duex help [COMMAND]
+  $ deux help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
@@ -48,14 +48,14 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
-## `duex template NAME DIR`
+## `deux template NAME DIR`
 
 Clones an existing Express app repository.
 
 ```
 USAGE
-  $ duex template NAME DIR
+  $ deux template NAME DIR
 ```
 
-_See code: [src/commands/template.js](https://github.com/dmdboi/duex/blob/v1.0.0/src/commands/template.js)_
+_See code: [src/commands/template.js](https://github.com/dmdboi/deux/blob/v1.0.0/src/commands/template.js)_
 <!-- commandsstop -->
