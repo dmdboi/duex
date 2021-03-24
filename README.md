@@ -1,12 +1,12 @@
-triton
+Deux
 ======
 
 A generator for building better Express apps
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/triton.svg)](https://npmjs.org/package/triton)
-[![Downloads/week](https://img.shields.io/npm/dw/triton.svg)](https://npmjs.org/package/triton)
-[![License](https://img.shields.io/npm/l/triton.svg)](https://github.com/dmdboi/triton/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/deux.svg)](https://npmjs.org/package/deux)
+[![Downloads/week](https://img.shields.io/npm/dw/deux.svg)](https://npmjs.org/package/deux)
+[![License](https://img.shields.io/npm/l/deux.svg)](https://github.com/dmdboi/deux/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -15,49 +15,29 @@ A generator for building better Express apps
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g triton
-$ triton COMMAND
+$ npm install -g express-deux
+$ duex COMMAND
 running command...
-$ triton (-v|--version|version)
-triton/0.1.2 win32-x64 node-v14.16.0
-$ triton --help [COMMAND]
+$ duex (-v|--version|version)
+express-deux/1.0.0 win32-x64 node-v14.16.0
+$ duex --help [COMMAND]
 USAGE
-  $ triton COMMAND
+  $ duex COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`triton hello`](#triton-hello)
-* [`triton help [COMMAND]`](#triton-help-command)
-* [`triton model`](#triton-model)
-* [`triton template`](#triton-template)
+* [`duex help [COMMAND]`](#duex-help-command)
+* [`duex template NAME DIR`](#duex-template-name-dir)
 
-## `triton hello`
+## `duex help [COMMAND]`
 
-Describe the command here
+display help for duex
 
 ```
 USAGE
-  $ triton hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/hello.js](https://github.com/dmdboi/triton/blob/v0.1.2/src/commands/hello.js)_
-
-## `triton help [COMMAND]`
-
-display help for triton
-
-```
-USAGE
-  $ triton help [COMMAND]
+  $ duex help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
@@ -68,36 +48,14 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
-## `triton model`
+## `duex template NAME DIR`
 
-Creates a default Mongoose Model
-
-```
-USAGE
-  $ triton model
-
-OPTIONS
-  -n, --name=name  Model name, must start with Capital.
-  --nts            Creates Model without timestamps.
-```
-
-_See code: [src/commands/model.js](https://github.com/dmdboi/triton/blob/v0.1.2/src/commands/model.js)_
-
-## `triton template`
-
-Describe the command here
+Clones an existing Express app repository.
 
 ```
 USAGE
-  $ triton template @author/repository
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
+  $ duex template NAME DIR
 ```
 
-_See code: [src/commands/template.js](https://github.com/dmdboi/triton/blob/v0.1.2/src/commands/template.js)_
+_See code: [src/commands/template.js](https://github.com/dmdboi/duex/blob/v1.0.0/src/commands/template.js)_
 <!-- commandsstop -->
