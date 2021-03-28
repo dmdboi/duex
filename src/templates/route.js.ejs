@@ -6,7 +6,7 @@ const <%- name %>Controller = require("../controllers/<%- name %>");
 const wrapper = (fn) => (req, res, next) =>
   Promise.resolve(fn(req, res, next).catch(next));
 
-router.post("/find", wrapper(<%- name %>Controller.find));
-router.post("/findAll", wrapper(<%- name %>Controller.findAll));
+router.get("/find", wrapper(<%- name %>Controller.find));
+router.get("/findAll", wrapper(<%- name %>Controller.findAll));
 
 module.exports = router;
